@@ -53,8 +53,3 @@ Two players take turns rolling a dice. Each roll adds to their current score unl
 - Make it playable against a computer.  
 
 ---
-
-## 📸 Preview  
-*(Insert a screenshot of your game here once hosted)*  
-
----
