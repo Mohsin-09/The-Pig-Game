@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #333;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  text-transform: uppercase;
+}
+
+.section--game {
+  padding: 0 0.5rem;
+}
+
+/* winner bg-color: #2f2f2f; */
+.container {
+  max-width: 80rem;
+  margin: 5rem auto;
+  position: relative;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  top: 2.4rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  flex-direction: column;
+}
+
+.btn {
+  border: none;
+  border-radius: 10rem;
+  padding: 1.2rem 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn--newgame {
+  margin-bottom: 3.4rem;
+}
+
+img {
+  max-width: 10rem;
+  margin-bottom: 8.2rem;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #cd4a6f;
+  justify-content: center;
+}
+
+.player {
+  padding: 5.2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player.active {
+  background-color: #d8728f;
+}
+
+.player.winner {
+  background-color: #2f2f2f;
+}
+
+.winner p:first-child {
+  color: #f7f7f7;
+}
+
+.player p:first-child {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.player .total-score {
+  font-size: 5.8rem;
+  color: #bf2e34;
+  margin-bottom: 14rem;
+}
+
+.holding-bag {
+  color: #f7f7f7;
+  background-color: #bf2e34;
+  text-align: center;
+  padding: 1rem 4.2rem;
+  border-radius: 0.4rem;
+}
+
+.holding-bag p:first-child {
+  font-size: 1.4rem;
+}
+
+.holding-bag p:nth-child(2) {
+  font-size: 2.4rem;
+}
